@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+`<html>
+
+    <body>
+        <h2>Fizz Buzz: Assessment</h2>
+        <p> The numbers that are bold are even and the numbers in red are multiples of 3. </p>
+            <p id= "buzz"></p>
+
+        <script>
+                    
+                    console.log("Display numbers 1 through 1000");
+                    for (let counter = 1; counter <=1000; counter++)
+                    {
+                        if (counter % 2 == 0) {
+                            console.log("%c"+counter, "font-weight: bold;");
+                        }
+                        else { 
+                            if (counter % 3 == 0) {
+                                console.log("%c"+counter, "color: red;");
+                            }
+                        else {
+                            console.log(counter);
+                            }
+                    }
+                    }
+        
+
+
+        </script>
+    </body>
+
+</html>
